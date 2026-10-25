@@ -37,11 +37,16 @@ for short. Detailed introduction look [Gitbook](https://markamibox.github.io/wor
 
 ### Android Installation
 
-1. Download and install the mono version of worldbox
-2. Move NeoModLoader.dll to Android/data/com.mkarpenko.worldbox/mods
+1. Use a suitable Mono mod loader for worldbox, like FusionCore
+2. Move NeoModLoader.dll to `<Persistentdata>/mods`
 3. enable experimental mode and start the game
 
+### IOS Installation
 
+1. Sideload a mono ipa of worldbox.
+2. enable JIT in a suitable way, jailbreak, stikdebug, etc.
+3. move NeoModLoader to files/Worldbox/mods
+4. enable experimental mode and launch the game with JIT enabled
 
 <h2 align="center">Others</h2>
 <h3 align="center">
